@@ -1,0 +1,10 @@
+/*
+  OBJECTS => Grids
+*/
+
+.o-container {
+  $m-h: auto;
+  margin-left: $m-h;
+  margin-right: $m-h;
+  @include responsive-prop("width", 1200px, null, null, null, null);
+}
